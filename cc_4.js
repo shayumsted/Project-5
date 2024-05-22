@@ -17,10 +17,10 @@ calculateAnnualSalary() {const bonus = this.salary * 0.15; const totalSalary = t
     return totalSalary;}}
 
 // Test Data
-const manager1 = new Manager('Bob Ross', 6600, 'Digital Marketing');
-const manager2 = new Manager('Debbie Little', 7205, 'Finance');
+const manager1 = new Manager('Bob Ross', 6600, 'Digital Marketing'); // Employee: Bob Ross, Monthly Salary: $6600
+const manager2 = new Manager('Debbie Little', 7205, 'Finance'); // Employee: Debbie Little, Monthly Salary: $7205
 
 // Calculate and log annual salaries to include bonuses
 console.log("\nAnnual Salaries with Bonuses:");
-manager1.calculateAnnualSalary();
-manager2.calculateAnnualSalary();
+manager1.calculateAnnualSalary(); // Manager Bob Ross in the Digital Marketing department - Bonus: $990, Total Annual Salary: $80190
+manager2.calculateAnnualSalary(); // Manager Debbie Little in the Finance department - Bonus: $1080.75, Total Annual Salary: $87540.75
