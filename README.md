@@ -1,2 +1,1 @@
-# Project 4
- salary calculator assignment
+This new coding assignment entails creating a JavaScript program to manage a company's employee salaries.The program will be used to handle specialized salary calculations for managers, including and changes in salary. 
