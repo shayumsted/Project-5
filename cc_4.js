@@ -15,3 +15,12 @@ class Manager extends Employee {constructor(name, salary, department) {super(nam
 calculateAnnualSalary() {const bonus = this.salary * 0.15; const totalSalary = this.salary * 12 + bonus;
     console.log(`Manager ${this.name} in the ${this.department} department - Bonus: $${bonus}, Total Annual Salary: $${totalSalary}`);
     return totalSalary;}}
+
+// Test Data
+const manager1 = new Manager('Bob Ross', 6600, 'Digital Marketing');
+const manager2 = new Manager('Debbie Little', 7205, 'Finance');
+
+// Calculate and log annual salaries to include bonuses
+console.log("\nAnnual Salaries with Bonuses:");
+manager1.calculateAnnualSalary();
+manager2.calculateAnnualSalary();
